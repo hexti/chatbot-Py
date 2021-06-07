@@ -3,15 +3,15 @@
 - pip
 - python3
 
-## Configuração
+## Instalação do projeto
 
-Na pasta utilize os comandos a baixo:
+Clone o projeto:
 
 ```bash
 git clone https://github.com/hexti/chatbot-Py.git
 ```
 
-Para obter o seu token do chatbot do telegram, é necessário seguir as opções a baixo falar com o @botFather e seguir o passo a passo a baixo:
+Para obter o seu token do chatbot no telegram, é necessário seguir as opções a baixo falar com o @botFather dentro do Telegram e seguir os passos a baixo:
 
 ```
     /start
@@ -19,11 +19,11 @@ Para obter o seu token do chatbot do telegram, é necessário seguir as opções
     /newbot
 ```
 
-após esses passos será questionado qual o nome do bot o seu username, após isso o @botFather irá retornar o seu token HTTP API agora basta colocar esse TOKEN na variável TOKEN que se encontra no index.py (linha 4).
+Após seguido esses passos, será questionado qual o nome do bot o seu username para terminar a configuração, após isso o @botFather irá retornar o seu token HTTP API.Cópie o TOKEN e cole na variável TOKEN que se encontra no arquivo index.py (linha 4) do projeto.
 
 ## Iniciando a aplicação
 
-No terminal entre na pasta raiz e digite o comando a baixo:
+Abrar no terminal a pasta onde encontra-se o projeto e execute o comando a baixo:
 
 ```bash
 python3 index.py
